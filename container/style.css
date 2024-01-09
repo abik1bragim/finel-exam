@@ -94,6 +94,7 @@ nav>ul .B-Xizmat:hover .boshqa-xizmatlar {
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     /* border: 1px solid red; */
+    z-index: 19;
 }
 
 .boshqa-xizmatlar ul {
@@ -968,4 +969,13 @@ form {
 .call i {
     color: white;
     font-size: 20px;
+}
+
+.boglanishCard {
+    width: 700px;
+    height: 500px;
+    border: 1px solid red;
+    position: absolute;
+    z-index: 10;
+    background-color: #fff;
 }
